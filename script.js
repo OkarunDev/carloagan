@@ -107,10 +107,10 @@ document.addEventListener('DOMContentLoaded', () => {
     contactForm.appendChild(subjectField)
 
     contactForm.addEventListener('submit', function(e) {
-      const name = this.querySelector('input[placeholder="Your Name"]').value
-      const email = this.querySelector('input[placeholder="Your Email"]').value
-      const subject = this.querySelector('input[placeholder="Subject"]').value
-      const message = this.querySelector('textarea').value
+      const name = this.querySelector('input[name="name"]').value
+      const email = this.querySelector('input[name="email"]').value
+      const subject = this.querySelector('input[name="subject"]').value
+      const message = this.querySelector('textarea[name="message"]').value
 
       if (!name || !email || !subject || !message) {
         e.preventDefault()
