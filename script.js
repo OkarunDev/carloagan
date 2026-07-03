@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       setTimeout(() => {
         showToast('Message sent successfully! I will get back to you soon.', 'success')
-      }, 1000)
+      }, 3000)
     })
   }
 
@@ -189,10 +189,10 @@ document.addEventListener('DOMContentLoaded', () => {
     ╔════════════════════════════════════════╗
     ║     CARLO AGAN - IT ANALYST            ║
     ║   Futuristic Portfolio v2.0            ║
-    ║   Built with HTML, CSS, JS & Bootstrap║
+    ║   Built with HTML, CSS, JS & Bootstra  ║
     ║                                        ║
     ║  Email: carloagan123@gmail.com         ║
-    ║  GitHub: CarloAgan123                  ║
+    ║  GitHub: OkarunDev                     ║
     ╚════════════════════════════════════════╝
   `)
 })

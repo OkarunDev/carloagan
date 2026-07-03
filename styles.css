@@ -140,6 +140,9 @@ body::before {
   position: relative;
   overflow: hidden;
   margin-top: 70px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: calc(100vh - 70px);
 }
 
 .stars {
@@ -842,6 +845,11 @@ body::before {
     flex-direction: column;
   }
 
+  .hologram-container {
+    height: 300px;
+    margin-top: 2rem;
+  }
+
   .timeline::before {
     left: 20px;
   }
@@ -889,6 +897,21 @@ body::before {
     font-size: 1rem;
   }
 
+  .cyber-text {
+    font-size: 1rem;
+  }
+
+  .hero-cyber {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    min-height: auto;
+  }
+
+  .hologram-container {
+    height: 250px;
+    margin-top: 1.5rem;
+  }
+
   .hologram-box {
     width: 150px;
     height: 150px;
@@ -904,5 +927,15 @@ body::before {
 
   .cyber-link {
     font-size: 0.8rem;
+  }
+
+  .hero-buttons {
+    gap: 0.5rem;
+  }
+
+  .cyber-btn-primary,
+  .cyber-btn-secondary {
+    padding: 10px 20px;
+    font-size: 0.9rem;
   }
 }
