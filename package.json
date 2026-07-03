@@ -1,0 +1,20 @@
+{
+  "name": "carlo-agan-portfolio",
+  "version": "2.0.0",
+  "description": "Futuristic IT Analyst Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "resend": "^3.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "portfolio",
+    "it-analyst",
+    "web-developer"
+  ],
+  "author": "Carlo Agan",
+  "license": "MIT"
+}
